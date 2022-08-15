@@ -80,7 +80,7 @@ jobs:
            push: true
            tags: registry.heroku.com/hands-on-devops-crescer/web:latest
            
-  publish-imagem:
+  publish-image:
       name: Publicar ambiente de desenvolvimento
       needs: push-image
       runs-on: ubuntu-latest
